@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+
+.project {
+  padding: 50px;
+  width: 400px;
+}
+
+header {
+  background: #666;
+  color: white;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#counter {
+  background: black;
+  width: 25px;
+  height: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+section ul li {
+  background: orangered;
+  padding: 10px 0;
+  color: white;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.complete {
+  background: orangered;
+  padding: 10px 0;
+  color: white;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+section ul li:nth-child(4) {
+  background-color: orange;
+}
+
+footer {
+  background-color: #333;
+}
+
+#newItemButton {
+  text-align: right;
+  padding: 10px;
+}
+
+#showForm {
+  border: none;
+  padding: 10px 15px;
+  background: orange;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+form {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+input[type="text"] {
+  padding: 8px;
+
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  width: 55px;
+  background: orange;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
